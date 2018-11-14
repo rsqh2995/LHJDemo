@@ -15,6 +15,9 @@
 		EB53D4232192C4D000E93F5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB53D4222192C4D000E93F5E /* main.m */; };
 		EB53D42D2192C4D000E93F5E /* LHJTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB53D42C2192C4D000E93F5E /* LHJTests.m */; };
 		EB53D4382192C4D000E93F5E /* LHJUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB53D4372192C4D000E93F5E /* LHJUITests.m */; };
+		EB53D4492192C81600E93F5E /* img6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB53D4462192C81500E93F5E /* img6@2x.png */; };
+		EB53D44A2192C81600E93F5E /* gb1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB53D4472192C81500E93F5E /* gb1@2x.png */; };
+		EB53D44B2192C81600E93F5E /* s1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB53D4482192C81600E93F5E /* s1@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		EB53D4332192C4D000E93F5E /* LHJUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LHJUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB53D4372192C4D000E93F5E /* LHJUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHJUITests.m; sourceTree = "<group>"; };
 		EB53D4392192C4D000E93F5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB53D4462192C81500E93F5E /* img6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img6@2x.png"; sourceTree = "<group>"; };
+		EB53D4472192C81500E93F5E /* gb1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gb1@2x.png"; sourceTree = "<group>"; };
+		EB53D4482192C81600E93F5E /* s1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "s1@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		EB53D4122192C4CA00E93F5E /* LHJ */ = {
 			isa = PBXGroup;
 			children = (
+				EB53D4452192C80500E93F5E /* images */,
 				EB53D4132192C4CA00E93F5E /* AppDelegate.h */,
 				EB53D4142192C4CA00E93F5E /* AppDelegate.m */,
 				EB53D4162192C4CA00E93F5E /* ViewController.h */,
@@ -130,6 +137,16 @@
 				EB53D4392192C4D000E93F5E /* Info.plist */,
 			);
 			path = LHJUITests;
+			sourceTree = "<group>";
+		};
+		EB53D4452192C80500E93F5E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				EB53D4472192C81500E93F5E /* gb1@2x.png */,
+				EB53D4462192C81500E93F5E /* img6@2x.png */,
+				EB53D4482192C81600E93F5E /* s1@2x.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +252,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB53D44B2192C81600E93F5E /* s1@2x.png in Resources */,
+				EB53D44A2192C81600E93F5E /* gb1@2x.png in Resources */,
 				EB53D4202192C4D000E93F5E /* LaunchScreen.storyboard in Resources */,
 				EB53D41D2192C4D000E93F5E /* Assets.xcassets in Resources */,
 				EB53D41B2192C4CA00E93F5E /* Main.storyboard in Resources */,
+				EB53D4492192C81600E93F5E /* img6@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
